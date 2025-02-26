@@ -1,0 +1,3 @@
+requests
+Google-api-python-client
+python-dotenv
