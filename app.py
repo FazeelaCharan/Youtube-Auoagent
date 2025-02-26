@@ -45,6 +45,7 @@
 #         st.error("Failed to fetch data. Check your API key or quota.")
 import requests
 import streamlit as st
+import os
 from dotenv import load_dotenv
 load_dotenv()
 API_KEY = os.getenv("YOUTUBE_API_KEY")
