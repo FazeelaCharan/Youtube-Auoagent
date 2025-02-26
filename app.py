@@ -45,8 +45,10 @@
 #         st.error("Failed to fetch data. Check your API key or quota.")
 import requests
 import streamlit as st
+from dotenv import load_dotenv
+load_dotenv()
+API_KEY = os.getenv("YOUTUBE_API_KEY")
 
-API_KEY = "AIzaSyBl0nIx3r_dzRmiIA8LG2OltLhWNNjcFIY"
 
 # Streamlit UI
 st.title("YouTube Trending Videos")
